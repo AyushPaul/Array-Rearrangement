@@ -12,7 +12,7 @@ int main()
         cout<<"\nEnter the "<<i+1<<"th member of the array :";
         cin>>arr[i];
     }
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++) //Loop to Double the values and assignng next value to zero
     {
         if(arr[i]!=0)
         {
@@ -25,7 +25,7 @@ int main()
     }
 
 
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++) //Loop to Bring all the non-positive number to front of array
     {
         if(arr[i]!=0)
         {
@@ -34,7 +34,7 @@ int main()
         }
 
     }
-    while(num1<n)
+    while(num1<n)  //Looop to assign last remaining elements to zero
     {
         arr[num1]=0;
         num1++;
