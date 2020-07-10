@@ -4,7 +4,7 @@ using namespace std;
 
 void Swap_Zeroes(int arr[],int n)
 {
-    int b[100];
+    int b[100]; //A temporary array
 
     for(int i=0;i<n;i++)
     {
